@@ -1,0 +1,23 @@
+#entorno virtual
+venv/
+
+#cache de py
+__pycache__/
+*.pyc
+
+# Base de datos local (en caso de usar SQLite)
+db.sqlite3
+
+# Archivos del sistema o temporales
+*.log
+*.pot
+*.py[cod]
+*$py.class
+
+# Configuración de entorno de VSCode o PyCharm
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
